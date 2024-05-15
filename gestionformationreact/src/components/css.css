@@ -1,0 +1,206 @@
+/* Styles for the navbar */
+.navbar {
+  background-color: #343a40;
+  width: 100%;
+  position: fixed; /* Fixe la barre de navigation en haut de l'écran */
+  top: 0; /* Place la barre de navigation en haut de la fenêtre */
+  z-index: 1000; /* Assure que la barre de navigation est au-dessus de tout autre contenu */
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 18px;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #17a2b8;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-brand i {
+  margin-right: 5px; /* Espacement entre l'icône et le texte */
+}
+
+.nav-link {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #17a2b8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://us.123rf.com/450wm/jes2ufoto/jes2ufoto1508/jes2ufoto150800256/44407505-arri%C3%A8re-plan-flou-le-meilleur-point-de-d%C3%A9part-pour-une-formation-en-conception-de-sites-web-la.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed; /* Fixe l'arrière-plan */
+}
+
+.container {
+  padding-top: 70px; /* Ajoute une marge en haut pour la barre de navigation */
+  background-color: #343a40 ;
+}
+
+/* Styles for the list */
+.list-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto; /* Centrer horizontalement */
+  max-width: 1200px; /* Limiter la largeur de la liste */
+}
+
+.list-group-item {
+  width: calc(33.33% - 20px); /* Trois éléments par ligne */
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  color: #000; /* Couleur du texte en noir */
+}
+
+.list-group-item h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #000; /* Couleur du texte en noir */
+}
+
+.list-group-item p {
+  margin-bottom: 5px;
+  color: #000; /* Couleur du texte en noir */
+}
+
+.list-group-item button {
+  margin-top: 10px;
+}
+
+.list-group-item button:hover {
+  background-color: #dc3545;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://us.123rf.com/450wm/jes2ufoto/jes2ufoto1508/jes2ufoto150800256/44407505-arri%C3%A8re-plan-flou-le-meilleur-point-de-d%C3%A9part-pour-une-formation-en-conception-de-sites-web-la.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed; /* Fixe l'arrière-plan */
+}
+
+.container {
+  padding-top: 70px; /* Ajoute une marge en haut pour la barre de navigation */
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fcf0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  background-color: #343a40;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #000; /* Noir */
+  font-size: 18px;
+  margin-right: 18px;
+  text-decoration: none;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #17a2b8;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input[type='text'],
+input[type='number'],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #040404;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+
+
+button:hover {
+  opacity: 0.8;
+}
